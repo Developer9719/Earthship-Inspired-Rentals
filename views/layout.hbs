@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title><a href="/">{{title}}</a></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <header>
+      <h1>{{title}}</h1>
+      <nav>
+        <ul> <!-- Mobile first design: Make this collapsible. Use JS -->
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/rentals">Current Rentals</a></li>
+          <li><a href="/futureProjects">Future Projects</a></li>
+          <li><a href="/contact">Contact Us </a></li>
+        </ul>
+      </nav>
+    </header>
     {{{body}}}
+    <footer>
+
+    </footer>
   </body>
 </html>

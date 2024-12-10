@@ -1,8 +1,43 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+/* Header */
+header {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Nav */
+nav a {
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block; /* Displays list vertically */
+  padding-right: 5%;
+}
+
+/* Home Page */
