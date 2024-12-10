@@ -1,2 +1,2 @@
-bin
+#bin: Need this uploaded for deployment
 node_modules
